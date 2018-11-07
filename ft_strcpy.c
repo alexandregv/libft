@@ -1,25 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_strcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/11/07 11:36:31 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/07 14:55:56 by aguiot--         ###   ########.fr       */
+/*   Created: 2018/11/07 14:56:01 by aguiot--          #+#    #+#             */
+/*   Updated: 2018/11/07 15:44:44 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+char	*ft_strcpy(char *dst, const char *src)
+{
+	int	i;
 
-void	ft_putchar_fd(char c, int fd);
-void	ft_putchar(char c);
-void	ft_putstr_fd(char const *s, int fd);
-void	ft_putstr(char const *s);
-void	ft_putnbr_fd(int n, int fd);
-void	ft_putnbr(int n);
-int		ft_strlen(char const *s);
-char	*ft_strcpy(char *dst, const char *src);
-
-#endif
+	i = 0;
+	while (src[i])
+	{
+		dst[i] = src[i];
+		i++;
+	}
+	dst[i] = src[i];
+	return (dst);
+}

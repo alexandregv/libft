@@ -1,26 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/11/07 11:36:31 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/07 16:04:03 by aguiot--         ###   ########.fr       */
+/*   Created: 2018/11/07 15:54:54 by aguiot--          #+#    #+#             */
+/*   Updated: 2018/11/07 16:10:45 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#include <stdlib.h>
+#include "libft.h"
 
-void	ft_putchar_fd(char c, int fd);
-void	ft_putchar(char c);
-void	ft_putstr_fd(char const *s, int fd);
-void	ft_putstr(char const *s);
-void	ft_putnbr_fd(int n, int fd);
-void	ft_putnbr(int n);
-int		ft_strlen(char const *s);
-char	*ft_strcpy(char *dst, const char *src);
-char	*ft_strdup(const char *s1);
+char	*ft_strdup(char const *s1)
+{
+	char *s2;
 
-#endif
+	if ((s2 = (char*)malloc(sizeof(char) * ft_strlen(s1) + 1)) == NULL)
+		return (NULL);
+	ft_strcpy(s2, s1);
+	return (s2);
+}

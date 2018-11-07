@@ -6,14 +6,14 @@
 #    By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/07 11:37:02 by aguiot--          #+#    #+#              #
-#    Updated: 2018/11/07 11:49:46 by aguiot--         ###   ########.fr        #
+#    Updated: 2018/11/07 12:28:06 by aguiot--         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 INCLUDES = ./
 CFLAGS += -Wall -Wextra -Werror
-SRC =
+SRC = ft_putchar_fd.c
 OBJ = $(SRC:.c=.o)
 
 all: $(NAME)

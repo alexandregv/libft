@@ -6,7 +6,7 @@
 #    By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/07 11:37:02 by aguiot--          #+#    #+#              #
-#    Updated: 2018/11/07 17:49:38 by aguiot--         ###   ########.fr        #
+#    Updated: 2018/11/07 18:21:16 by aguiot--         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ INCLUDES = ./
 CFLAGS += -Wall -Wextra -Werror
 SRC = ft_putchar_fd.c ft_putchar.c ft_putstr_fd.c ft_putstr.c ft_putnbr_fd.c \
 	  ft_putnbr.c ft_strlen.c ft_strcpy.c  ft_strncpy.c ft_strdup.c \
-	  ft_strcat.c
+	  ft_strcat.c ft_strncat.c
 OBJ = $(SRC:.c=.o)
 
 all: $(NAME)

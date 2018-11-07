@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 11:36:31 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/07 19:03:03 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/07 19:35:43 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,5 +29,6 @@ char	*ft_strcat(char *s1, char const *s2);
 char	*ft_strncat(char *s1, char const *s2, size_t n);
 char	*ft_strlcat(char *dst, char const *src, size_t size);
 char	*ft_strchr(char const *s, int c);
+char	*ft_strrchr(char const *s, int c);
 
 #endif

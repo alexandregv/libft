@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 11:36:31 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/08 18:48:40 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/08 18:50:53 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,5 +38,6 @@ int		ft_isalpha(int c);
 int		ft_isdigit(int c);
 int		ft_isalnum(int c);
 int		ft_isprint(int c);
+int		ft_isascii(int c);
 
 #endif

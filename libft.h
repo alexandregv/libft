@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 11:36:31 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/09 12:50:49 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/09 13:30:02 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,5 +44,6 @@ int		ft_tolower(int c);
 void	ft_strclr(char *s);
 void	ft_putendl_fd(char const *s, int fd);
 void	ft_putendl(char const *s);
+int		ft_strequ(char const *s1, char const *s2);
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 11:36:31 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/09 16:27:09 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/10 09:43:01 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,5 +47,6 @@ void	ft_putendl(char const *s);
 int		ft_strequ(char const *s1, char const *s2);
 int		ft_strnequ(char const *s1, char const *s2, size_t n);
 char	*ft_strstr(const char *haystack, const char *needle);
+char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 
 #endif

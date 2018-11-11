@@ -21,7 +21,7 @@ SRC = ft_putchar_fd.c ft_putchar.c ft_putstr_fd.c ft_putstr.c ft_putnbr_fd.c \
 	  ft_tolower.c ft_strclr.c ft_putendl_fd.c ft_putendl.c ft_strequ.c \
 	  ft_strnequ.c ft_strstr.c ft_strnstr.c ft_memset.c ft_bzero.c \
 	  ft_memalloc.c ft_memdel.c ft_strnew.c ft_strdel.c ft_strsub.c \
-	  ft_strjoin.c
+	  ft_strjoin.c ft_isspace.c
 OBJ = $(SRC:.c=.o)
 
 all: $(NAME)

@@ -56,5 +56,6 @@ char	*ft_strnew(size_t size);
 void	ft_strdel(char **as);
 char	*ft_strsub(char const *s, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);
+int		ft_isspace(int c);
 
 #endif

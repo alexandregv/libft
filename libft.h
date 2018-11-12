@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 11:36:31 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/12 12:40:24 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/12 12:50:06 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,5 +62,6 @@ int		ft_iscntrl(int c);
 int		ft_isgraph(int c);
 int		ft_isxdigit(int c);
 int		ft_str_is_alpha(char const *s);
+int		ft_str_is_lowercase(char const *s);
 
 #endif

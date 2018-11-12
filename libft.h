@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 11:36:31 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/12 13:16:16 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/12 14:31:08 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,5 +66,6 @@ int		ft_str_is_lowercase(char const *s);
 int		ft_str_is_uppercase(char const *s);
 int		ft_str_is_numeric(char const *s);
 int		ft_str_is_printable(char const *s);
+char	*ft_strupcase(char *s);
 
 #endif

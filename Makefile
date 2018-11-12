@@ -6,7 +6,7 @@
 #    By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/07 11:37:02 by aguiot--          #+#    #+#              #
-#    Updated: 2018/11/12 14:31:51 by aguiot--         ###   ########.fr        #
+#    Updated: 2018/11/12 14:36:58 by aguiot--         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,7 +24,7 @@ SRC = ft_putchar_fd.c ft_putchar.c ft_putstr_fd.c ft_putstr.c ft_putnbr_fd.c \
 	  ft_strjoin.c ft_isspace.c ft_isblank.c ft_iscntrl.c ft_isgraph.c \
 	  ft_isxdigit.c ft_str_is_alpha.c ft_str_is_lowercase.c \
 	  ft_str_is_uppercase.c ft_str_is_numeric.c ft_str_is_printable.c \
-	  ft_strupcase.c ft_strlowcase.c
+	  ft_strupcase.c ft_strlowcase.c ft_strcasestr.c
 OBJ = $(SRC:.c=.o)
 
 all: $(NAME)

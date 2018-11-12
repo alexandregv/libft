@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 11:36:31 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/12 15:44:48 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/12 17:29:20 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,5 +72,6 @@ char	*ft_strcasestr(const char *haystack, const char *needle);
 int		ft_strcasecmp(char const *s1, char const *s2);
 char	*ft_strndup(const char *s1, size_t n);
 char	*ft_strtrim(char const *s);
+void	ft_striter(char *s, void (*f)(char *));
 
 #endif

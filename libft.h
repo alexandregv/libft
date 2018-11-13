@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 11:36:31 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/13 16:33:21 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/13 17:45:55 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,5 +92,6 @@ void				*ft_memccpy(void *dst, void const *src, int c, size_t n);
 char				**ft_strsplit(char const *s, char c);
 char				*ft_itoa(int n);
 t_list				*ft_lstnew(void const *content, size_t content_size);
+void				ft_lstadd(t_list **alst, t_list *new);
 
 #endif

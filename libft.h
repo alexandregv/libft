@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 11:36:31 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/13 13:28:39 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/13 14:29:41 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,5 +80,6 @@ int		ft_atoi(char const *s);
 void	*ft_memcpy(void *dst, void const *src, size_t n);
 void	*ft_memchr(void const *s, int c, size_t n);
 int		ft_memcmp(void const *s1, void const *s2, size_t n);
+void	*ft_memmove(void *dst, void const *src, size_t len);
 
 #endif

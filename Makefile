@@ -6,7 +6,7 @@
 #    By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/07 11:37:02 by aguiot--          #+#    #+#              #
-#    Updated: 2018/11/13 13:28:10 by aguiot--         ###   ########.fr        #
+#    Updated: 2018/11/13 14:28:40 by aguiot--         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ SRC = ft_putchar_fd.c ft_putchar.c ft_putstr_fd.c ft_putstr.c ft_putnbr_fd.c \
 	  ft_str_is_uppercase.c ft_str_is_numeric.c ft_str_is_printable.c \
 	  ft_strupcase.c ft_strlowcase.c ft_strcasestr.c ft_strcasecmp.c \
 	  ft_strndup.c ft_strtrim.c ft_striter.c ft_striteri.c ft_strmap.c \
-	  ft_strmapi.c ft_atoi.c ft_memcpy.c ft_memchr.c ft_memcmp.c
+	  ft_strmapi.c ft_atoi.c ft_memcpy.c ft_memchr.c ft_memcmp.c ft_memmove.c
 OBJ = $(SRC:.c=.o)
 
 all: $(NAME)

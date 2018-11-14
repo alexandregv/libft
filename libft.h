@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 11:36:31 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/14 13:54:41 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/14 17:16:03 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void				ft_putstr_fd(char const *s, int fd);
 void				ft_putstr(char const *s);
 void				ft_putnbr_fd(int n, int fd);
 void				ft_putnbr(int n);
-int					ft_strlen(char const *s);
+size_t				ft_strlen(char const *s);
 char				*ft_strcpy(char *dst, const char *src);
 char				*ft_strncpy(char *dst, const char *src, size_t len);
 char				*ft_strdup(const char *s1);

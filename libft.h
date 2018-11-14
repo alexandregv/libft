@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 11:36:31 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/14 13:06:53 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/14 13:54:41 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,5 +99,6 @@ void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 int					ft_str_skip_to(char *str, char const c);
 int					ft_str_skip_while(char *str, int (*f)(int));
+int					ft_str_skip_charset(char *str, char const *charset);
 
 #endif

@@ -6,7 +6,7 @@
 #    By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/07 11:37:02 by aguiot--          #+#    #+#              #
-#    Updated: 2018/11/14 12:56:51 by aguiot--         ###   ########.fr        #
+#    Updated: 2018/11/14 13:35:08 by aguiot--         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,7 +29,7 @@ SRC = ft_putchar_fd.c ft_putchar.c ft_putstr_fd.c ft_putstr.c ft_putnbr_fd.c \
 	  ft_strmapi.c ft_atoi.c ft_memcpy.c ft_memchr.c ft_memcmp.c ft_memmove.c \
 	  ft_memccpy.c ft_strsplit.c ft_itoa.c ft_lstnew.c ft_lstadd.c \
 	  ft_lstdelone.c ft_lstdel.c ft_lstiter.c ft_lstmap.c ft_str_skip_to.c \
-	  ft_str_skip_while.c
+	  ft_str_skip_while.c ft_str_skip_charset.c
 OBJ = $(SRC:.c=.o)
 
 all: $(NAME)

@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/12 12:59:54 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/12 13:01:19 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/19 18:31:12 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int	ft_str_is_numeric(char const *s)
 	{
 		if (!ft_isdigit(*s))
 			return (0);
-		s++;
+		++s;
 	}
 	return (1);
 }

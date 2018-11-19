@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 19:32:06 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/08 16:09:15 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/19 18:29:47 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char		*ft_strrchr(char const *s, int c)
 	{
 		if (*s == c)
 			last_c = (char*)s;
-		s++;
+		++s;
 	}
 	if (c == '\0')
 		return ((char*)s);

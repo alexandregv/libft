@@ -6,17 +6,14 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/10 10:19:50 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/10 10:29:32 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/19 16:52:15 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
+#include "libft.h"
 
 void		ft_bzero(void *s, size_t n)
 {
-	unsigned char	*p;
-
-	p = s;
-	while (n-- > 0)
-		*(p++) = (unsigned char)0;
+	ft_memset(s, 0, n);
 }

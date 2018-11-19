@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/14 16:36:14 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/14 17:00:33 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/19 18:23:00 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ char		*ft_itoa(int n)
 	ncpy = n;
 	size = 2;
 	while (ncpy /= 10)
-		size++;
+		++size;
 	size += neg;
 	if ((str = (char*)malloc(sizeof(char) * size)) == NULL)
 		return (NULL);

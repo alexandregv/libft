@@ -6,18 +6,18 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 14:44:16 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/14 17:15:51 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/19 17:05:35 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
 
-int		ft_strlen(char const *s)
+int			ft_strlen(char const *s)
 {
-	int	i;
+	char	*p;
 
-	i = 0;
-	while (s[i])
-		i++;
-	return (i);
+	p = (char*)s;
+	while (*p)
+		++p;
+	return (p - s);
 }

@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 18:57:06 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/07 19:33:09 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/19 18:26:38 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 char	*ft_strchr(char const *s, int c)
 {
 	while (*s && *s != c)
-		s++;
+		++s;
 	if (*s != c)
 		return (NULL);
 	return ((char*)s);

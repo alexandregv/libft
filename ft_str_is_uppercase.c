@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/12 12:56:11 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/12 12:56:21 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/19 18:25:42 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int	ft_str_is_uppercase(char const *s)
 	{
 		if (!ft_isupper(*s))
 			return (0);
-		s++;
+		++s;
 	}
 	return (1);
 }

@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/12 15:44:57 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/12 18:06:11 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/19 18:30:47 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,10 @@ char		*ft_strtrim(char const *s)
 		return (NULL);
 	i = 0;
 	while (s[i] && (s[i] == ' ' || s[i] == '\n' || s[i] == '\t'))
-		i++;
+		++i;
 	j = ft_strlen(s) - 1;
 	while (s[j] && (s[j] == ' ' || s[j] == '\n' || s[j] == '\t'))
-		j--;
+		--j;
 	if (j == -1)
 		i = 0;
 	if ((trim = ft_strnew(j - i + 1)) == NULL)

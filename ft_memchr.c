@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/13 13:18:15 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/13 13:24:57 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/19 18:23:24 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	*ft_memchr(void const *s, int c, size_t n)
 	{
 		if (*p == (unsigned char)c)
 			return (p);
-		p++;
+		++p;
 	}
 	return (NULL);
 }

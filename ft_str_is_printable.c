@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/12 13:27:59 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/12 13:28:53 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/19 18:24:45 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int	ft_str_is_printable(char const *s)
 	{
 		if (!ft_isprint(*s))
 			return (0);
-		s++;
+		++s;
 	}
 	return (1);
 }

@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/09 16:09:28 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/10 09:41:09 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/19 18:30:34 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,11 +26,11 @@ char		*ft_strstr(const char *haystack, const char *needle)
 		{
 			j = 1;
 			while (needle[j] && haystack[i + j] == needle[j])
-				j++;
+				++j;
 			if (needle[j] == '\0')
 				return ((char*)&haystack[i]);
 		}
-		i++;
+		++i;
 	}
 	return (0);
 }

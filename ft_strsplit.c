@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/13 16:04:28 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/14 17:02:39 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/19 18:30:18 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ static int		sizeof_split(char const *s, char c)
 
 	p = (char*)s;
 	while (p && *p && *p != c)
-		p++;
+		++p;
 	return (p - s);
 }
 
@@ -37,9 +37,9 @@ static int		count_splits(char const *s, char c)
 		if (!mode && *s != c)
 		{
 			mode = 1;
-			count++;
+			++count;
 		}
-		s++;
+		++s;
 	}
 	return (count);
 }
@@ -60,12 +60,12 @@ char			**ft_strsplit(char const *s, char c)
 	while (split_id-- > 0)
 	{
 		while (s && *s && *s == c)
-			s++;
+			++s;
 		if ((arr[i] = ft_strsub((char const*)s, 0
 						, sizeof_split((char const *)s, c))) == NULL)
 			return (NULL);
 		s += sizeof_split(s, c);
-		i++;
+		++i;
 	}
 	arr[i] = 0;
 	return (arr);

@@ -6,7 +6,7 @@
 /*   By: aguiot-- <aguiot--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 16:13:07 by aguiot--          #+#    #+#             */
-/*   Updated: 2018/11/19 18:28:46 by aguiot--         ###   ########.fr       */
+/*   Updated: 2018/11/20 20:14:44 by aguiot--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ char		*ft_strncpy(char *dst, char const *src, size_t len)
 		dst[i] = src[i];
 		++i;
 	}
-	while (i < len)
+	while (i <= len)
 		dst[i++] = '\0';
 	return (dst);
 }
